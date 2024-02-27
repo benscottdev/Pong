@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#myCanvas {
+  background-color: rgb(39, 39, 39);
+  border-radius: 20px;
+}
+
+#runButton {
+  cursor: pointer;
+  position: absolute;
+  font-family: Helvetica;
+  font-weight: 900;
+  font-size: 22px;
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+
+#runButton:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+#runButton:active {
+  scale: 90%;
+}
